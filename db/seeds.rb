@@ -14,3 +14,4 @@ CSV.foreach(Rails.root.join('lib/uf_2019.csv'), headers: true) do |row|
       value: row[1]
     })
 end
+
